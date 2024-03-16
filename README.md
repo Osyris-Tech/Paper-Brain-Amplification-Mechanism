@@ -6,23 +6,28 @@ This repository contains the Python code and instructions necessary to replicate
 
 ### Getting started
 Install and import the package\
+
 `pip install osreplicate`\
 `from osreplicate import Paper`
 
 ### Access the paper you want to replicate
 Provide the papers alias to start analyzing\
+
 `analysis = Paper('uc/Balanced Amplification')`
 
 ### Get the datasets
 Locally download any available datasets associated with this paper\
+
 `analysis.get_data()`
 
 ### Replicate the paper
 Automatically run the full analysis on the available datasets and reproduce the figures from the paper\
+
 `analysis.run()`
 
-### Step 1: Mix and match      
+### Mix and match      
 Access core analysis methods from to the paper\
+
 `analysis.linear_firing_rate_model(tau, r, W, I)`\
 `analysis.decompose_network_activity_and_input(P, r_t, I_t)`\
 `analysis.construct_connectivity_matrix(W_EE, W_EI, W_IE, W_II)`\
