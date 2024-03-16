@@ -21,13 +21,10 @@ Locally download any available datasets associated with this paper
 
 ### Replicate the paper
 Automatically run the full analysis on the available datasets and reproduce the figures from the paper
-
-**Code:** `analysis.run()`
+`analysis.run()`
 
 ### Step 1: Mix and match      
-Access core analysis methods from to the paper
-
-**Code:**\
+Access core analysis methods from to the paper\
 `analysis.linear_firing_rate_model(tau, r, W, I)`\
 `analysis.decompose_network_activity_and_input(P, r_t, I_t)`\
 `analysis.construct_connectivity_matrix(W_EE, W_EI, W_IE, W_II)`\
