@@ -5,22 +5,20 @@ This repository contains the Python code and instructions necessary to replicate
 ## Steps to Replicate the Analysis
 
 ### Getting started
-Install and import the package
-**Code:** `pip install osreplicate`
-**Code:** `from osreplicate import Paper`
+Install and import the package\
+`pip install osreplicate`\
+`from osreplicate import Paper`
 
 ### Access the paper you want to replicate
-Provide the papers alias to start analyzing
-
-**Code:** `analysis = Paper('uc/Balanced Amplification')`
+Provide the papers alias to start analyzing\
+`analysis = Paper('uc/Balanced Amplification')`
 
 ### Get the datasets
-Locally download any available datasets associated with this paper
-
-**Code:** `analysis.get_data()`
+Locally download any available datasets associated with this paper\
+`analysis.get_data()`
 
 ### Replicate the paper
-Automatically run the full analysis on the available datasets and reproduce the figures from the paper
+Automatically run the full analysis on the available datasets and reproduce the figures from the paper\
 `analysis.run()`
 
 ### Step 1: Mix and match      
