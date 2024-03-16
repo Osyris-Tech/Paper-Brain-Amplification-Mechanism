@@ -27,9 +27,9 @@ Automatically run the full analysis on the available datasets and reproduce the 
 ### Step 1: Mix and match      
 Access core analysis methods from to the paper
 
-**Code:** 
-`analysis.linear_firing_rate_model(tau, r, W, I)`
-`analysis.decompose_network_activity_and_input(P, r_t, I_t)`
-`analysis.construct_connectivity_matrix(W_EE, W_EI, W_IE, W_II)`
-`analysis.balanced_amplification_model(w, k_I)`
+**Code:**\
+`analysis.linear_firing_rate_model(tau, r, W, I)`\
+`analysis.decompose_network_activity_and_input(P, r_t, I_t)`\
+`analysis.construct_connectivity_matrix(W_EE, W_EI, W_IE, W_II)`\
+`analysis.balanced_amplification_model(w, k_I)`\
 `analysis.plot_cross_covariance(cross_covariance, max_lag)`
